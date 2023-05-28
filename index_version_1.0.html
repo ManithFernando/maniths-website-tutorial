@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+    <head>
+      <link rel="stylesheet" href="styles_version_1.0.css">
+      <link rel="icon" href="Images/Website_Logo.jpg" type="image/icon type">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>How to Code HTML By Manith Fernando</title>
+    </head>
+<body>
+    <div class="dark-mode-2">
+        <h1 style="text-align: center; color:rgb(0, 0, 80);">How to Code HTML</h1>
+        <h2 style="text-align: center; color:rgb(0, 0, 80);">By Manith Fernando</h2>
+        <hr>
+        <h3>I learned everything from the website <a style="color: navy;" href="https://www.w3schools.com/html">W3schools</a></h3>
+        <b><p>Website's Age - </b>26-4-2023 &emsp;<b>To</b>&emsp;<a id="currentDate"></a></p>
+        <h3><b><a style="color: navy;" href="changelog.html">Website's ChangeLog</a></b></h3>
+        <hr>
+        <nav>
+          <ul>
+            <li id="butles1"><a href="#lesson_1">Lesson 1</a></li>
+            <li id="butles2"><a href="#lesson_2">Lesson 2</a></li>
+            <li id="butles3"><a href="#lesson_3">Lesson 3</a></li>
+          </ul>
+        </nav>
+        <hr>
+        <details>
+          <summary class="urls" style="font-size: 28px; font-family:Verdana; font-weight: bold;">Content Library</summary>
+          <p><a style="color: black;" href="#lesson_1">Lesson 1 - HTML Introduction</a></p>
+          <p><a style="color: black;" href="#lesson_2">Lesson 2 - HTML Elements</a></p>
+          <p><a style="color: black;" href="#lesson_3">Lesson 3 - HTML Attributes</a></p>
+        </details>
+        <button style="border-color: beige; border-radius: 15px; padding: 10px; color: white; background-color: black;" onclick="myFunction()" class="toggle">Toggle light/Dark mode</button>
+        <hr id="lesson_1">
+        <h1>Lesson 1 - HTML Introduction</h1>
+        <hr>
+        <h2>What is HTML?</h2>
+        <h4>HTML is the standard markup language for creating Web pages.</h4>
+        <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>HTML elements label pieces of content such as "this is a heading",<br>"this is a paragraph", "this is a link", etc.</li>
+        </ul>
+        <h3>Example of HTML Code</h3>
+    <img src="Images/Example_of_HTML_Code.jpg" alt="Example of HTML Code" width="30%" height="30%">
+    <br>
+    <ul>
+        <li>The <code>&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an <I>HTML5</I> document</li>
+        <li>The <code>&lt;html&gt;</code> element is the root element of an HTML page</li>
+        <li>The <code>&lt;head&gt;</code> element contains meta information about the HTML page</li>
+        <li>The <code>&lt;title&gt;</code>  element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+        <li>The <code>&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+        <li>The <code>&lt;h1&gt;</code> element defines a large heading</li>
+        <li>The <code>&lt;p&gt;</code> element defines a paragraph</li>
+    </ul>
+    <details>
+      <summary style="font-size: larger;"><u>This is what h1 to h6 looks like</u></summary>
+      <h1>This is H1</h1>
+      <h2>This is H2</h2>
+      <h3>This is H3</h3>
+      <h4>This is H4</h4>
+      <h5>This is H5</h5>
+      <h6>This is H6</h6>
+    </details>
+    <h1>What is an HTML Element?</h1>
+    <p>An HTML element is defined by a start tag, some content, and an end tag:<br>The HTML element is everything from the start tag to the end tag:</p>
+    <p>Ex:- <code>&lt;tagname&gt;</code> Content goes here... <code>&lt;/tagname&gt;</code></p>
+    <p><code>&lt;h1&gt;</code> My First Heading <code>&lt;/h1&gt;</code></p>
+    <p><code>&lt;p&gt;</code> first paragraph. <code>&lt;/p&gt;</code> </p>
+    <img src="Images/Example_of_start_and_end_tag.jpg" alt="Example of start and end tag" width="40%" height="40%">
+    <br>
+    <p><b>Note:</b>Some HTML elements have no content (like the <code>&lt;br&gt;</code> element). These elements are called empty elements. Empty elements do not have an end tag!</p>
+    <h1>Web Browsers</h1>
+    <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.<br>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+    <h1>HTML Page Structure (<b>Very Important</b>)</h1>
+    <p>Below is a visualization of an HTML page structure:</p>
+    <img src="Images/HTML_Page_Structure.jpg" alt="HTML Page Structure" width="50%" height="50%">
+    <br>
+    <p><b>Note:</b> The content inside the <code>&lt;body&gt;</code> section will be displayed in a browser.<br>The content inside the <code>&lt;title&gt;</code> element will be shown in the browser's title bar or in the page's tab.</p>
+    <h1>HTML History (<b>Not very Important</b>)</h1>
+    <p>Took me 3 hours to make the table lol</p>
+        <table style="width:60%">
+          <tr>
+            <th>Year</th>
+            <th>Version</th>
+          </tr>
+          <tr>
+            <td>1989</td>
+            <td>Tim Berners-Lee invented World Wide Web (www)</td>
+          </tr>
+          <tr>
+            <td>1991</td>
+            <td>Tim Berners-Lee invented HTML</td>
+          </tr>
+          <tr>
+            <td>1993</td>
+            <td>Dave Raggett drafted HTML+</td>
+          </tr>
+          <tr>
+            <td>1995</td>
+            <td>HTML Working Group defined HTML 2.0</td>
+          </tr>
+          <tr>
+            <td>1997</td>
+            <td>W3C Recommendation: HTML 3.2</td>
+          </tr>
+          <tr>
+            <td>1999</td>
+            <td>W3C Recommendation: HTML 4.01</td>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>W3C Recommendation: XHTML 1.0</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>WHATWG HTML5 First Public Draft</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>WHATWG HTML5 Living Standard</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>W3C Recommendation: HTML5</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>W3C Candidate Recommendation: HTML 5.1</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>W3C Recommendation: HTML5.1 2nd Edition</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>W3C Recommendation: HTML5.2</td>
+          </tr>
+        </table>
+        <p>This Website created By Manith Fernando teach HTML5.2</p>
+        <hr id="lesson_2">
+        <h1>Lesson 2 - HTML Elements</h1>
+        <hr>
+        <il>An HTML element is defined by a start tag, some content, and an end tag.</il>
+        <h1>HTML Elements</h1>
+        <p>The HTML element is everything from the start tag to the end tag:</p>
+        <h4><code>&lt;tagname&gt;</code> Content goes here... <code>&lt;/tagname&gt;</code></h4>
+        <p>Examples of some HTML elements:</p>
+        <h4><code>&lt;h1&gt;</code> My First Heading <code>&lt;/h1&gt;</code><br><code>&lt;p&gt;</code> My first paragraph <code>&lt;/p&gt;</code> </h4>
+        <br>
+        <h1>Nested HTML Elements</h1>
+        <p>HTML elements can be nested (this means that elements can contain other elements).<br>All HTML documents consist of nested HTML elements.<br>The following example contains four HTML elements (<code>&lt;html&gt;</code>,<code>&lt;body&gt;</code>,<code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>):</p>
+        <img src="Images/Nested_HTML_Elements_Example.jpg" alt="Nested HTML Elements Example" width="30%" height="30%">
+        <br>
+        <h3>Example Explained</h3>
+        <p>The <code>&lt;html&gt;</code> element is the root element and it defines the whole HTML document.<br>It has a start tag <code>&lt;html&gt;</code> and an end tag <code>&lt;/html&gt;</code><br>Then, inside the <code>&lt;html&gt;</code> element there is a <code>&lt;body&gt;</code> element:.</p>
+        <p>The <code>&lt;body&gt;</code> element defines the document's body.<br>It has a start tag <code>&lt;body&gt;</code> and an end tag <code>&lt;/body&gt;</code><br>Then, inside the <body> element there are two other elements: <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code></p>
+        <p>The <code>&lt;h1&gt;</code> element defines a heading.<br>It has a start tag <code>&lt;h1&gt;</code> and an end tag <code>&lt;/h1&gt;</code></p>
+        <p>The <code>&lt;p&gt;</code> element defines a paragraph.<br>It has a start tag <code>&lt;p&gt;</code> and an end tag <code>&lt;/p&gt;</code></p>
+        <h1>Never Skip the End Tag</h1>
+        <p>Some HTML elements will display correctly, even if you forget the end tag:</p>
+        <h1>Empty HTML Elements</h1>
+        <p>HTML elements with no content are called empty elements.</p>
+        <p>The <code>&lt;br&gt;</code> tag defines a line break, and is an empty element without a closing tag:</p>
+        <h1>HTML is Not Case Sensitive</h1>
+        <p>HTML tags are not case sensitive: <code>&lt;P&gt;</code> means the same as <code>&lt;p&gt;</code>.</p>
+        <h1>HTML Tag Reference</h1>
+          <table style="width:75%">
+            <tr>
+              <th>Tag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>&lt;html&gt;</code></td>
+              <td>Defines the root of an HTML document</td>
+            </tr>
+            <tr>
+              <td><code>&lt;body&gt;</code></td>
+              <td>Defines the document's body</td>
+            </tr>
+            <tr>
+              <td><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></td>
+              <td>Defines HTML headings</td>
+            </tr>
+          </table>
+            <input type="text" id="list1" list="suggestions" size="50%" placeholder="Search Tags..." />
+            <datalist id="suggestions">
+              <option value="<!DOCTYPE html>">This tag tells the browser the type of HTML that will be loaded.</option>
+              <option value="<html>">The entire HTML document</option>
+              <option value="<head>">The head, or prologue, of the HTML document</option>
+              <option value="<title>">The title of the document(in the tab bar)</option>
+              <option value="<body>">All the other content in the HTML document</option>
+              <option value="<h1>">First-level heading large text size</option>
+              <option value="<h2>"></option>
+            </datalist>
+          <p>For a complete list of all available HTML tags, visit this website called <a href="https://www.w3schools.com/tags/default.asp">HTML Tag Reference</a> since it may take me 128 hours to make it all if I made a table by myself.</p>
+          <hr id="lesson_3">
+          <h1>Lesson 3 - HTML Attributes</h1>
+          <hr>
+          <li>HTML attributes provide additional information about HTML elements.</li>
+          <h3>HTML Attributes</h3>
+          <ul>
+            <li>All HTML elements can have <b>attributes</b></li>
+            <li>Attributes provide <b>additional information</b> about elements</li>
+            <li>Attributes are always specified in <b>the start tag</b></li>
+            <li>Attributes usually come in name/value pairs like: <b>name="value"</b></li>
+          </ul>
+            <h1>The href Attribute</h1>
+            <p>The <code>&lt;a&gt;</code> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+            <h3>Example</h3>
+            <img src="Images/href_attribute_example.jpg" alt="href attribute example" width="40%" height="40%">
+            <p>You will learn more about links on a later lesson</p>
+            <h1>The src Attribute</h1>
+            <p>The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page.<br>The <code>src</code> attribute specifies the path to the image to be displayed:</p>
+            <h2>Example</h2>
+            <img src="Images/src_attribute_example.jpg" alt="src attribute example" width="20%" height="20%">
+            <p>There are two ways to specify the URL in the <code>src</code> attribute:</p>
+            <details>
+              <summary><b>1. Absolute URL</b></summary>
+              <p>Links to an external image that is hosted on another website. Example: <code>src</code>="https://www.w3schools.com/images/img_girl.jpg".</p>
+              <p>Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</p>
+            </details>
+            <details>
+              <summary><b>2. Relative URL</b></summary>
+              <p>Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: <code>src</code>="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: <code>src</code>="/images/img_girl.jpg".</p>
+              <p>Tip: It is almost always best to use relative URLs. They will not break if you change domain.</p>
+            </details>
+            <h1>The width and height Attributes</h1>
+            <p>The <code>&lt;img&gt;</code> tag should also contain the width and height attributes, which specify the width and height of the image</p>
+            <p>In pixels:</p>
+            <img src="Images/width_and_height_attribute_in_pixels_example.jpg" alt="width and height attribute in pixels example" width="35%" height="35%">
+            <p>In percentages</p>
+            <img src="Images/width_and_height_attribute_in_percentages_example.jpg" alt="width and height attribute in percentages example" width="35%" height="35%">
+            <h1>The alt Attribute</h1>
+            <p>The required alt attribute for the <code>&lt;img&gt;</code> tag specifies an alternate text for an image, if the image for some reason cannot be displayed.<br>This can be due to a slow connection, or an error in the <code>src</code> attribute, or if the user uses a screen reader.</p>
+            <h2>Example</h2>
+            <p>See what happens if we try to display an image that does not exist:</p>
+            <img src="Images/alt_attribute_example.jpg" alt="alt attribute example" width="35%" height="35%">
+            <p>You will learn more about images in this <a href="https://www.w3schools.com/html/html_images.asp">HTML Images chapter.</a></p>
+            <h1>The style Attribute</h1>
+            <p>The <code>style</code> attribute is used to add styles to an element, such as color, font, size, and more.</p>
+            <h2>Example</h2>
+            <img src="Images/The_style_Attribute.jpg" alt="The style Attribute Example" width="35%" height="35%">
+            <p>You will learn more about styles in this <a href="https://www.w3schools.com/html/html_styles.asp">HTML Styles chapter</a></p>
+            <h1>The lang Attribute</h1>
+            <p>You should always include the <code>lang</code> attribute inside the <code>&lt;html&gt;</code> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</p>
+            <h3>The following example specifies English as the language:</h3>
+            <img src="Images/Lang_for_en.jpg" alt="Lang Example for en" width="20%" height="20%">
+            <p>Country codes can also be added to the language code in the lang attribute.<br>So, the first two characters define the language of the HTML page, and the last two characters define the country.</p>
+            <p>The following example specifies English as the language and Australia as the country: </p>
+            <img src="Images/Lang_for_en_and_au.jpg" alt="Lang Example for en and au" width="20%" height="20%">
+            <p>You can see all the language codes in this <a href="https://www.w3schools.com/tags/ref_language_codes.asp">HTML Language Code Reference.</a></p>
+            <fieldset><legend><h2>Suggestions</h2></legend>
+            <ul>
+              <li>I Suggest Always Use Lowercase Attributes &emsp;</li>
+              <li>I Suggest Always Quote Attribute Values</li>
+              <li>Use Double Quotes</li>
+            </ul>
+            </fieldset>
+            <fieldset><legend><h2>Lesson Summary</h2></legend>
+            <ul>
+              <li>All HTML elements can have attributes</li>
+              <li>The <code>href</code> attribute of <code>&lt;a&gt;</code>specifies the URL of the page the link goes to</li>
+              <li>The <code>src</code> attribute of <code>&lt;img&gt;</code> specifies the path to the image to be displayed</li>
+            </ul>
+            </fieldset>
+            <p>For a complete list of all attributes for each HTML element visit this <a style="color: navy;" href="https://www.w3schools.com/tags/ref_attributes.asp">HTML Attribute Reference Website.</a></p>
+            
+    </div>
+  <script src="scripts_version_1.0.js"></script>
+</body>
+</html>
