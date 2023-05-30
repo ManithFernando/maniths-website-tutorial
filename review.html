@@ -25,25 +25,53 @@
     </script>
     <script src="https://www.googleoptimize.com/optimize.js?id=OPT-W2N3W6M"></script>
     <!-- End Google Tag Manager -->
-</head>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNNNNTB"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <h1>Comments Test</h1>
-    <form name="contact" netlify>
+    <div class="dark-mode-2">
+      <a href="index.html">
+        <h1 style="color: navy"><u class="dark-hover">Go back</u></h1>
+      </a>
+      <button
+        style="
+          border-color: beige;
+          border-radius: 15px;
+          padding: 10px;
+          color: white;
+          background-color: black;
+        "
+        onclick="myFunction()"
+        class="toggle">
+        Toggle light/Dark mode
+      </button>
+    <h1>Reviews</h1>
+    <hr>
+    <h3>I will get your form in the website control panel and i can choose what to put in the comments section<br>(Please don't spam)</h3>
+    <form id="Reviews" name="Reviews" netlify>
       <p>
-        <label>Name <input type="text" name="name" /></label>
+        <label>Your Name: <input autocomplete="off" type="text" name="name" /></label>
       </p>
       <p>
-        <label>Email <input type="email" name="email" /></label>
+        <label>Your Email: <input type="email" name="email" /></label>
       </p>
       <p>
-        <button type="submit">Send</button>
+        <label>What out 10 (ex:10/10): <input autocomplete="off" name="review" /></label>
+      </p>
+      <p>
+        <label>Comment (Recommendations or issus): <input autocomplete="off" type="text" name="comment" /></label>
+      </p>
+      <p>
+        <button class="submit" type="submit">Submit</button>
       </p>
     </form>
+    <hr>
+    <h1>Comments<small> (Only selected comments by me)</small></h1>
+    <hr>
+    <p>None for now :(</p>
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>

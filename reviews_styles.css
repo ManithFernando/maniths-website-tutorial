@@ -189,4 +189,47 @@ body {
     100% { background-position: 0 0; }
   }
   
-  
+.submit {
+    width: 150px;
+    height: 43px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px;
+    cursor: pointer;
+}
+.submit:hover {
+    width: 150px;
+    height: 43px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #555454;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px;
+    cursor: pointer;
+}
+
+#Reviews {
+  width: 400px;
+}
+
+input {
+  padding: 3px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 14px;
+  font-weight: 600;
+  width: 300px;
+  border-radius: 9px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
