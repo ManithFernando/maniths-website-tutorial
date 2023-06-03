@@ -50,11 +50,11 @@ input[type="text"] {
   box-shadow: 0 0 10px gray;
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
+.border, .border th, .border td {
+  border: 1px solid rgb(0, 0, 0);
 }
+
+
 
 /*Navigation changes*/
 
@@ -256,3 +256,31 @@ fieldset {
   100% { background-position: 0 0; }
 }
 
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.left {
+  width: 25%;
+  float: left;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.middle {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.right {
+  width: 25%;
+  float: left;
+  padding: 10px;
+  padding-left: 30px;
+}
