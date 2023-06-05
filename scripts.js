@@ -37,7 +37,7 @@ function yourFunction() {
 const buttonToggle = document.querySelector(".toggle");
 buttonToggle.addEventListener("click", toggleClass);
 
-function toggleClass(){
-  const element = document.querySelector('.dark-mode-2');
-  element.classList.toggle('dark-mode-3');
+function toggleClass() {
+  const element = document.querySelector(".dark-mode-2");
+  element.classList.toggle("dark-mode-3");
 }

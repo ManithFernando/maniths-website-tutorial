@@ -50,11 +50,23 @@ input[type="text"] {
   box-shadow: 0 0 10px gray;
 }
 
-.border, .border th, .border td {
+.border,
+.border th,
+.border td {
   border: 1px solid rgb(0, 0, 0);
 }
 
-
+.align-right {
+  text-align: right;
+  margin-right: 1em;
+}
+.align-center {
+  text-align: center;
+}
+.align-left {
+  text-align: left;
+  margin-left: 1em;
+}
 
 /*Navigation changes*/
 
@@ -214,11 +226,22 @@ fieldset {
 }
 
 .toggle:before {
-  content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -226,12 +249,12 @@ fieldset {
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite;
   opacity: 1;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
 .toggle:active {
-  color: #000
+  color: #000;
 }
 
 .toggle:active:after {
@@ -240,7 +263,7 @@ fieldset {
 
 .toggle:after {
   z-index: -1;
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -251,36 +274,13 @@ fieldset {
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-
-
-.left {
-  width: 25%;
-  float: left;
-  padding: 10px;
-  padding-left: 25px;
-}
-
-.middle {
-  width: 50%;
-  float: left;
-  padding: 10px;
-  padding-left: 30px;
-}
-
-.right {
-  width: 25%;
-  float: left;
-  padding: 10px;
-  padding-left: 30px;
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
